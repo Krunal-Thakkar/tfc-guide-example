@@ -28,7 +28,7 @@ provider "aws" {
 #}
 
 resource "aws_s3_bucket" "bucket" {
-  bucket = "bucketterraform"
+  bucket = "my-tf-log-bucket-26122022"
   
   tags = {
     Name = "My bucket"
